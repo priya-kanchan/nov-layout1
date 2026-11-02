@@ -1,0 +1,895 @@
+<!doctype html>
+<html lang="en-IN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Project Name | Exceptional Residences at Location Address</title>
+    <meta name="description"
+        content="Discover Project Name at Location Address. Explore residences, lifestyle, floor plans and location. Request current pricing and arrange a guided visit." />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#0e0c09" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Project Name | A life, beautifully considered." />
+    <meta property="og:description"
+        content="Discover a fresh perspective on home. Explore the residences and arrange your personal consultation." />
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" href="images/favicon.webp" type="image/webp" />
+    <link rel="preload" href="fonts/manrope-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/fraunces-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" as="image" href="images/hero-1600.webp"
+        imagesrcset="images/hero-800.webp 800w, images/hero-1600.webp 1600w, images/hero-2400.webp 2400w"
+        imagesizes="100vw" fetchpriority="high" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/css/intlTelInput.css" />
+    <link rel="stylesheet" href="css/site.css" />
+    <script defer src="js/jquery.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/intlTelInput.min.js"></script>
+    <script defer src="js/intl.custom.js"></script>
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+    <a href="#main" class="skip-link">Skip to content</a>
+    <header class="site-header" id="site-header">
+        <nav id="navigation" aria-label="Main navigation">
+            <a href="#overview">Overview</a>
+            <a href="#residences">Price</a>
+            <a href="#highlights">Highlights</a>
+            <a href="#amenities">Amenities</a>
+            <a href="#floor-plans">Plans</a>
+            <a href="#location">Location</a>
+            <a href="#gallery">Gallery</a>
+            <div class="nav-extra">
+                <button class="button" data-enquire="Arrange a private visit">
+                    Book a private visit <span aria-hidden="true">↗</span></button><a class="nav-whatsapp"
+                    href="https://wa.me/910000000000?text=Hello%2C%20I%20am%20interested%20in%20Project%20Name.%20Please%20share%20the%20details."
+                    target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"
+                        focusable="false">
+                        <path fill="currentColor"
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+                    </svg>Chat on WhatsApp</a>
+                <p>Project Name · Location Address</p>
+            </div>
+        </nav>
+        <a class="brand" href="#home" aria-label="Project Name home"><span class="brand-mark"
+                aria-hidden="true">p.</span><span class="brand-name">PROJECT NAME<span>PRIVATE
+                    RESIDENCES</span></span></a>
+        <div class="header-actions">
+            <a class="header-link" href="#contact">Enquire</a><button class="button header-cta"
+                data-enquire="Arrange a private visit">
+                Book a visit <span aria-hidden="true">↗</span></button><button id="menu-toggle" class="menu-toggle"
+                aria-label="Open menu" aria-controls="navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+    <main id="main">
+        <section class="hero" id="home" aria-labelledby="hero-title">
+            <img class="hero-image" src="images/hero-1600.webp" srcset="
+            images/hero-800.webp   800w,
+            images/hero-1600.webp 1600w,
+            images/hero-2400.webp 2400w
+          " sizes="100vw" width="2400" height="1350"
+                alt="Illustrative luxury residential towers in a landscaped garden at golden hour"
+                fetchpriority="high" />
+            <div class="hero-shade"></div>
+            <div class="hero-inner container">
+                <div class="hero-content">
+                    <p class="hero-kicker">
+                        <i aria-hidden="true">✦</i>A PRIVATE COLLECTION OF RESIDENCES
+                    </p>
+                    <h1 id="hero-title">Project Name</h1>
+                    <p class="banner-location">
+                        <span class="location-pin" aria-hidden="true"></span>Location
+                        Address
+                    </p>
+                    <p class="banner-typology">3 & 4 BHK Luxury Residences</p>
+                    <div class="banner-actions">
+                        <button class="button" data-enquire="Schedule a guided site visit">
+                            Book a private visit <span aria-hidden="true">↗</span></button><button
+                            class="button button-ghost" data-enquire="Request the project brochure">
+                            Request brochure <span aria-hidden="true">↗</span></button><a href="#overview"
+                            class="hero-discover"><span class="discover-line" aria-hidden="true"></span>Discover</a>
+                    </div>
+                </div>
+                <aside class="hero-form-wrap" aria-labelledby="hero-form-title">
+                    <span class="form-topline">PRIVATE PREVIEW</span>
+                    <h2 id="hero-form-title">Register your <em>interest.</em></h2>
+                    <p>Receive residence details &amp; current pricing.</p>
+                    <div class="enquiry-form" data-form="hero" id="hero-form">
+                        <div id="enquireBody">
+                            <input id="qSenderName" name="name" type="text" placeholder="Name*" title="Enter Name"
+                                autocomplete="off" /><input id="qEmailID" name="email" type="email" placeholder="Email*"
+                                title="Enter Email" autocomplete="off" /><input id="qMobileNo" class="phone-input"
+                                data-countrycode-id="qCountryCode" name="number" type="tel" placeholder="Mobile Number*"
+                                title="Enter Number" autocomplete="off" /><input type="hidden" id="qCountryCode"
+                                name="country_code" value="+91" /><input id="qMessage" name="message" type="text"
+                                placeholder="Message*" title="Enter Message" autocomplete="off"
+                                value="Please share residence details and pricing." /><label class="consent"><input
+                                    type="checkbox" checked /><span>I authorize company representatives to Call, SMS,
+                                    Email or
+                                    WhatsApp me about its products and offers. This consent
+                                    overrides any registration for DNC/NDNC.</span></label><button id="SubmitQuery"
+                                class="button" type="submit" title="Send Message">
+                                Register interest <span aria-hidden="true">↗</span>
+                            </button>
+                        </div>
+                    </div>
+                    <small class="form-footnote">A personal conversation. A considered decision.</small>
+                </aside>
+            </div>
+            <div class="hero-ribbon container">
+                <div class="banner-price">
+                    <span>STARTING PRICE</span><strong>Price on request</strong><small>Request the latest cost sheet
+                        &amp; payment plan</small>
+                </div>
+                <ul class="banner-highlights" aria-label="Project highlights">
+                    <li><span>01</span>Spacious residences</li>
+                    <li><span>02</span>Lifestyle amenities</li>
+                    <li><span>03</span>Connected address</li>
+                </ul>
+            </div>
+            <span class="hero-caption">AI-generated artistic impression</span>
+        </section>
+        <div class="marquee" aria-hidden="true">
+            <div class="marquee-track">
+                <span>Private residences</span><i>✦</i><span>Considered architecture</span><i>✦</i><span>Landscaped
+                    serenity</span><i>✦</i><span>By appointment only</span><i>✦</i><span>A connected
+                    address</span><i>✦</i><span>Crafted for a lifetime</span><i>✦</i><span>Private
+                    residences</span><i>✦</i><span>Considered architecture</span><i>✦</i><span>Landscaped
+                    serenity</span><i>✦</i><span>By appointment only</span><i>✦</i><span>A connected
+                    address</span><i>✦</i><span>Crafted for a lifetime</span><i>✦</i>
+            </div>
+        </div>
+        <section id="overview" class="section overview">
+            <div class="container">
+                <div class="overview-top reveal">
+                    <p class="eyebrow"><span class="numeral">I</span>THE ADDRESS</p>
+                    <h2 class="statement">
+                        Some places simply <em>feel like home</em> the moment you arrive.
+                    </h2>
+                </div>
+                <div class="overview-grid">
+                    <div class="overview-copy reveal">
+                        <p class="lead">
+                            Welcome to Project Name, a fresh perspective on home at Location
+                            Address.
+                        </p>
+                        <p>
+                            A quiet morning. A conversation that lasts a little longer. A
+                            space that feels entirely your own. Discover an address through
+                            the things that make everyday life meaningful.
+                        </p>
+                        <p>
+                            Explore the residence collection, speak with a property advisor
+                            and take your time finding the right fit.
+                        </p>
+                        <button class="text-button" data-enquire="Request the project brochure">
+                            Explore the brochure <span aria-hidden="true">↗</span>
+                        </button>
+                    </div>
+                    <figure class="arch reveal">
+                        <img src="images/living-1000.webp" width="1000" height="1100"
+                            alt="Illustrative sunlit living room with warm natural finishes" loading="lazy"
+                            decoding="async" />
+                        <figcaption>Artistic impression</figcaption>
+                    </figure>
+                    <dl class="ledger reveal">
+                        <div>
+                            <dt>The address</dt>
+                            <dd>Location Address</dd>
+                        </div>
+                        <div>
+                            <dt>The residences</dt>
+                            <dd>3 & 4 BHK Luxury Residences</dd>
+                        </div>
+                        <div>
+                            <dt>The investment</dt>
+                            <dd>Price on request</dd>
+                        </div>
+                        <div>
+                            <dt>The visit</dt>
+                            <dd>By private appointment</dd>
+                        </div>
+                    </dl>
+                </div>
+            </div>
+        </section>
+        <section id="residences" class="section residences">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <div>
+                        <p class="eyebrow">
+                            <span class="numeral">II</span>RESIDENCES &amp; PRICING
+                        </p>
+                        <h2>The residence <em>collection.</em></h2>
+                    </div>
+                    <p>
+                        Three expressions of considered living.<br />Request
+                        configurations, areas and a detailed cost sheet.
+                    </p>
+                </div>
+                <div class="residence-wrap">
+                    <figure class="residence-figure reveal">
+                        <img src="images/ai-master-suite.webp" width="1200" height="805"
+                            alt="Illustrative bedroom with soft lighting and a city outlook" loading="lazy"
+                            decoding="async" />
+                        <figcaption>
+                            <span>A LITTLE MORE ROOM TO BE YOU</span>Artistic impression
+                        </figcaption>
+                    </figure>
+                    <div class="residence-table reveal">
+                        <div class="rt-head" aria-hidden="true">
+                            <span>Residence</span><span>Configuration</span><span>Size</span><span>Price</span><span></span>
+                        </div>
+                        <article class="rt-row">
+                            <div class="rt-name">
+                                <span class="rt-num">I</span>
+                                <div>
+                                    <h3>The Classic</h3>
+                                    <p>A considered space for everyday living</p>
+                                </div>
+                            </div>
+                            <p class="rt-cell" data-label="Configuration">3 BHK</p>
+                            <p class="rt-cell" data-label="Size">On request</p>
+                            <p class="rt-cell rt-price" data-label="Price">On request</p>
+                            <button class="round-button" data-enquire="Request the price of The Classic residence"
+                                aria-label="Request the price of The Classic residence">
+                                <span class="rt-cta-text" aria-hidden="true">Request price</span>↗
+                            </button>
+                        </article>
+                        <article class="rt-row">
+                            <div class="rt-name">
+                                <span class="rt-num">II</span>
+                                <div>
+                                    <h3>The Signature</h3>
+                                    <p>More room for everything you love</p>
+                                </div>
+                            </div>
+                            <p class="rt-cell" data-label="Configuration">3 BHK + Study</p>
+                            <p class="rt-cell" data-label="Size">On request</p>
+                            <p class="rt-cell rt-price" data-label="Price">On request</p>
+                            <button class="round-button" data-enquire="Request the price of The Signature residence"
+                                aria-label="Request the price of The Signature residence">
+                                <span class="rt-cta-text" aria-hidden="true">Request price</span>↗
+                            </button>
+                        </article>
+                        <article class="rt-row">
+                            <div class="rt-name">
+                                <span class="rt-num">III</span>
+                                <div>
+                                    <h3>The Grand</h3>
+                                    <p>A generous canvas for your next chapter</p>
+                                </div>
+                            </div>
+                            <p class="rt-cell" data-label="Configuration">4 BHK</p>
+                            <p class="rt-cell" data-label="Size">On request</p>
+                            <p class="rt-cell rt-price" data-label="Price">On request</p>
+                            <button class="round-button" data-enquire="Request the price of The Grand residence"
+                                aria-label="Request the price of The Grand residence">
+                                <span class="rt-cta-text" aria-hidden="true">Request price</span>↗
+                            </button>
+                        </article>
+                        <div class="rt-foot">
+                            <div>
+                                <span>COST SHEET · PAYMENT PLAN · INVENTORY</span>
+                                <p>Your personalised pricing, shared privately.</p>
+                            </div>
+                            <button class="button" data-enquire="Request pricing and payment plans">
+                                Request the cost sheet <span aria-hidden="true">↗</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <p class="small-note">
+                    Residence collections are illustrative. Request confirmed
+                    configurations, sizes and current pricing.
+                </p>
+            </div>
+        </section>
+        <section id="highlights" class="section hallmarks">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <div>
+                        <p class="eyebrow">
+                            <span class="numeral">III</span>THE HIGHLIGHTS
+                        </p>
+                        <h2>Everyday life,<br /><em>quietly elevated.</em></h2>
+                    </div>
+                    <p>
+                        The details you notice. The moments you remember.<br />Six
+                        hallmarks that shape the design intent.
+                    </p>
+                </div>
+                <div class="hallmark-stage">
+                    <ol class="hallmark-col hallmark-left reveal" start="1">
+                        <li>
+                            <span class="numeral-big" aria-hidden="true">I</span>
+                            <div>
+                                <h3>A sense of arrival</h3>
+                                <p>
+                                    Architecture and shared spaces designed to welcome you home.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="numeral-big" aria-hidden="true">II</span>
+                            <div>
+                                <h3>Light and air</h3>
+                                <p>
+                                    Residences planned around daylight, views and
+                                    cross-ventilation.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="numeral-big" aria-hidden="true">III</span>
+                            <div>
+                                <h3>Green at heart</h3>
+                                <p>Landscaped spaces that bring calm into every day.</p>
+                            </div>
+                        </li>
+                    </ol>
+                    <figure class="hallmark-arch reveal">
+                        <div class="arch-frame">
+                            <img src="images/ai-clubhouse-lobby.webp" width="800" height="993"
+                                alt="Illustrative double-height lobby in natural stone and bronze" loading="lazy"
+                                decoding="async" />
+                        </div>
+                        <figcaption>An impression of refined arrival</figcaption>
+                    </figure>
+                    <ol class="hallmark-col hallmark-right reveal" start="4">
+                        <li>
+                            <span class="numeral-big" aria-hidden="true">IV</span>
+                            <div>
+                                <h3>Time for wellness</h3>
+                                <p>Room for fitness, leisure and unhurried evenings.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="numeral-big" aria-hidden="true">V</span>
+                            <div>
+                                <h3>Thoughtful privacy</h3>
+                                <p>A residential setting that respects your space.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="numeral-big" aria-hidden="true">VI</span>
+                            <div>
+                                <h3>A connected address</h3>
+                                <p>Daily routes to work, schools and essentials.</p>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+                <p class="small-note hallmark-note">
+                    Hallmarks describe the design intent. Request the approved
+                    specifications.
+                </p>
+            </div>
+        </section>
+        <section id="amenities" class="section pillars">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <div>
+                        <p class="eyebrow">
+                            <span class="numeral">IV</span>THE LIFESTYLE
+                        </p>
+                        <h2>Time for the things<br />you <em>love.</em></h2>
+                    </div>
+                    <p>
+                        From an unhurried morning to a well-spent evening.<br />Four
+                        chapters of everyday luxury.
+                    </p>
+                </div>
+                <div class="pillar-row">
+                    <article class="pillar reveal">
+                        <img src="images/ai-clubhouse-lobby.webp" width="800" height="993"
+                            alt="Illustrative double-height arrival lobby" loading="lazy" decoding="async" />
+                        <div class="pillar-body">
+                            <span class="pillar-num">01</span>
+                            <h3>Arrival</h3>
+                            <p>A lobby that sets the tone for every homecoming.</p>
+                            <button class="text-button" data-enquire="Request clubhouse and social space details">
+                                Explore <span aria-hidden="true">↗</span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="pillar reveal">
+                        <img src="images/ai-central-greens.webp" width="1200" height="900"
+                            alt="Illustrative landscaped central greens" loading="lazy" decoding="async" />
+                        <div class="pillar-body">
+                            <span class="pillar-num">02</span>
+                            <h3>Landscape</h3>
+                            <p>Gardens and open greens to slow the pace of the day.</p>
+                            <button class="text-button" data-enquire="Request landscape and outdoor space details">
+                                Explore <span aria-hidden="true">↗</span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="pillar reveal">
+                        <img src="images/pool-1400.webp" width="1400" height="650"
+                            alt="Illustrative poolside lounge at sunset" loading="lazy" decoding="async" />
+                        <div class="pillar-body">
+                            <span class="pillar-num">03</span>
+                            <h3>Leisure</h3>
+                            <p>Poolside evenings and spaces to simply unwind.</p>
+                            <button class="text-button" data-enquire="Request fitness and wellness details">
+                                Explore <span aria-hidden="true">↗</span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="pillar reveal">
+                        <img src="images/ai-kitchen-dining.webp" width="1200" height="900"
+                            alt="Illustrative dining space with a city view" loading="lazy" decoding="async" />
+                        <div class="pillar-body">
+                            <span class="pillar-num">04</span>
+                            <h3>Gathering</h3>
+                            <p>Room to host, celebrate and come together.</p>
+                            <button class="text-button" data-enquire="Request social and dining space details">
+                                Explore <span aria-hidden="true">↗</span>
+                            </button>
+                        </div>
+                    </article>
+                </div>
+                <p class="small-note">
+                    Lifestyle imagery is conceptual. Request the approved amenity list
+                    and specifications.
+                </p>
+            </div>
+        </section>
+        <section id="floor-plans" class="section plans">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <div>
+                        <p class="eyebrow">
+                            <span class="numeral">V</span>MASTER &amp; FLOOR PLANS
+                        </p>
+                        <h2>Good living starts<br />with <em>good design.</em></h2>
+                    </div>
+                    <p>
+                        Approved plans are shared privately.<br />Request access for a
+                        detailed view.
+                    </p>
+                </div>
+                <div class="plan-grid">
+                    <article class="plan-vault reveal">
+                        <div class="vault-art floor-art" aria-hidden="true">
+                            <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                        </div>
+                        <div class="vault-lock">
+                            <span class="vault-label">FLOOR PLAN</span><span class="lock-seal"
+                                aria-hidden="true">✦</span>
+                            <h3>Residence plans</h3>
+                            <p>3 &amp; 4 BHK layouts</p>
+                            <button class="button" data-enquire="Request approved residence floor plans">
+                                Request access <span aria-hidden="true">↗</span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="plan-vault reveal">
+                        <div class="vault-art master-art" aria-hidden="true">
+                            <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                        </div>
+                        <div class="vault-lock">
+                            <span class="vault-label">MASTER PLAN</span><span class="lock-seal"
+                                aria-hidden="true">✦</span>
+                            <h3>The master plan</h3>
+                            <p>The bigger picture</p>
+                            <button class="button" data-enquire="Request the approved master plan">
+                                Request access <span aria-hidden="true">↗</span>
+                            </button>
+                        </div>
+                    </article>
+                </div>
+                <p class="small-note">
+                    Diagrams are illustrative previews. Request the approved project
+                    plans.
+                </p>
+            </div>
+        </section>
+        <section id="site-tour" class="site-tour">
+            <img src="images/living-wide.webp" width="1600" height="750"
+                alt="Illustrative light-filled residence with a city view" loading="lazy" decoding="async" />
+            <div class="container tour-content reveal">
+                <span class="tour-seal" aria-hidden="true"><span>BY<br />APPOINTMENT</span></span>
+                <p class="eyebrow">
+                    <span class="numeral">VI</span>EXPERIENCE THE ADDRESS
+                </p>
+                <h2>Picture yourself <em>here.</em></h2>
+                <p>
+                    Some things are better experienced.<br />Arrange a guided visit, at
+                    a time that works for you.
+                </p>
+                <button class="button" data-enquire="Schedule a guided site visit">
+                    Arrange your visit <span aria-hidden="true">↗</span>
+                </button>
+            </div>
+            <small>AI-generated artistic impression</small>
+        </section>
+        <section id="location" class="section location">
+            <div class="container location-grid">
+                <div class="reveal">
+                    <p class="eyebrow">
+                        <span class="numeral">VII</span>THE NEIGHBOURHOOD
+                    </p>
+                    <h2>Everything, <em>within reach.</em></h2>
+                    <p class="lead">Project Name<br />Location Address</p>
+                    <p class="muted">
+                        Get to know the neighbourhood, plan your daily routes and discover
+                        the wider city on your own terms.
+                    </p>
+                    <ul class="reach-list">
+                        <li><span>01</span>Business districts</li>
+                        <li><span>02</span>Schools</li>
+                        <li><span>03</span>Healthcare</li>
+                        <li><span>04</span>Metro &amp; transit</li>
+                        <li><span>05</span>Airport</li>
+                        <li><span>06</span>Shopping &amp; dining</li>
+                    </ul>
+                    <button class="text-button" data-enquire="Request exact site location and directions">
+                        Request the location guide <span aria-hidden="true">↗</span>
+                    </button>
+                </div>
+                <div class="compass-wrap reveal">
+                    <div class="compass" aria-hidden="true">
+                        <span class="ring ring-1"></span><span class="ring ring-2"></span><span
+                            class="ring ring-3"></span><span class="axis axis-x"></span><span
+                            class="axis axis-y"></span><span class="node node-1"><b></b>Business</span><span
+                            class="node node-2"><b></b>Schools</span><span
+                            class="node node-3"><b></b>Healthcare</span><span
+                            class="node node-4"><b></b>Transit</span><span
+                            class="node node-5"><b></b>Airport</span><span class="node node-6"><b></b>Retail</span><span
+                            class="compass-core">p.</span>
+                    </div>
+                    <p class="compass-note">
+                        Illustrative connectivity diagram · Drive times shared with the
+                        location guide
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="gallery" class="section gallery">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <div>
+                        <p class="eyebrow">
+                            <span class="numeral">VIII</span>A CLOSER LOOK
+                        </p>
+                        <h2>A feeling, <em>in frames.</em></h2>
+                    </div>
+                    <div class="film-controls">
+                        <p>AI-generated artistic impressions.</p>
+                        <button id="film-prev" class="round-button" aria-label="Scroll gallery back">
+                            ←</button><button id="film-next" class="round-button" aria-label="Scroll gallery forward">
+                            →
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="filmstrip" id="filmstrip">
+                <button class="gallery-item wide" data-image="images/ai-living.webp"
+                    data-caption="The living room · AI-generated artistic impression">
+                    <img src="images/ai-living.webp" width="1200" height="805"
+                        alt="View larger image: The living room — artistic impression" loading="lazy"
+                        decoding="async" /><span class="film-caption"><em>01</em>Room to be
+                        yourself</span></button><button class="gallery-item tall"
+                    data-image="images/ai-clubhouse-lobby.webp"
+                    data-caption="The arrival lobby · AI-generated artistic impression">
+                    <img src="images/ai-clubhouse-lobby.webp" width="800" height="993"
+                        alt="View larger image: The arrival lobby — artistic impression" loading="lazy"
+                        decoding="async" /><span class="film-caption"><em>02</em>A grand welcome</span></button><button
+                    class="gallery-item" data-image="images/ai-central-greens.webp"
+                    data-caption="The landscaped garden · AI-generated artistic impression">
+                    <img src="images/ai-central-greens.webp" width="1200" height="900"
+                        alt="View larger image: The landscaped garden — artistic impression" loading="lazy"
+                        decoding="async" /><span class="film-caption"><em>03</em>A breath of fresh
+                        air</span></button><button class="gallery-item" data-image="images/ai-kitchen-dining.webp"
+                    data-caption="The dining space · AI-generated artistic impression">
+                    <img src="images/ai-kitchen-dining.webp" width="1200" height="900"
+                        alt="View larger image: The dining space — artistic impression" loading="lazy"
+                        decoding="async" /><span class="film-caption"><em>04</em>Life comes
+                        together</span></button><button class="gallery-item wide"
+                    data-image="images/ai-master-suite.webp"
+                    data-caption="The master suite · AI-generated artistic impression">
+                    <img src="images/ai-master-suite.webp" width="1200" height="805"
+                        alt="View larger image: The master suite — artistic impression" loading="lazy"
+                        decoding="async" /><span class="film-caption"><em>05</em>Rest,
+                        beautifully</span></button><button class="gallery-item wide" data-image="images/pool-1400.webp"
+                    data-caption="The poolside lounge · AI-generated artistic impression">
+                    <img src="images/pool-1400.webp" width="1400" height="650"
+                        alt="View larger image: The poolside lounge — artistic impression" loading="lazy"
+                        decoding="async" /><span class="film-caption"><em>06</em>Your everyday escape</span>
+                </button>
+            </div>
+        </section>
+        <section id="developer" class="section developer">
+            <div class="container developer-inner reveal">
+                <span class="dev-seal" aria-hidden="true"><span>p.</span></span>
+                <p class="eyebrow"><span class="numeral">IX</span>THE DEVELOPER</p>
+                <h2>A vision for living.<br /><em>A story to discover.</em></h2>
+                <p>
+                    Developer Name brings the vision behind Project Name to life. Get to
+                    know the people, the design approach and the thinking behind your
+                    next address.
+                </p>
+                <div class="dev-values">
+                    <div>
+                        <strong>Vision</strong><span>Homes shaped around the way you live</span>
+                    </div>
+                    <div>
+                        <strong>Craft</strong><span>Design and detail, considered with care</span>
+                    </div>
+                    <div>
+                        <strong>Trust</strong><span>Approved documentation, shared openly</span>
+                    </div>
+                </div>
+                <div class="developer-actions">
+                    <button class="text-button" data-enquire="Request the developer profile">
+                        Explore the developer <span aria-hidden="true">↗</span></button><button class="text-button"
+                        data-enquire="Request official project and registration details">
+                        Request project details <span aria-hidden="true">↗</span>
+                    </button>
+                </div>
+                <p class="rera">RERA registration: To be updated</p>
+            </div>
+        </section>
+        <section id="faq" class="section faq">
+            <div class="container faq-grid">
+                <div class="faq-intro reveal">
+                    <span class="faq-mark" aria-hidden="true">?</span>
+                    <p class="eyebrow">
+                        <span class="numeral">X</span>A FEW GOOD QUESTIONS
+                    </p>
+                    <h2>A little clarity.<br /><em>A confident step.</em></h2>
+                    <p class="muted">Your questions deserve a personal answer.</p>
+                    <button class="text-button" data-enquire="Speak with a property advisor">
+                        Speak with an advisor <span aria-hidden="true">↗</span>
+                    </button>
+                </div>
+                <div class="faq-list reveal">
+                    <details>
+                        <summary>
+                            <span class="faq-num">01</span><span class="faq-q">Where is the project located?</span><span
+                                class="faq-plus" aria-hidden="true"></span>
+                        </summary>
+                        <p>
+                            Project Name is at Location Address. Request the precise site
+                            pin and directions from an advisor before planning your visit.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>
+                            <span class="faq-num">02</span><span class="faq-q">What are the prices and
+                                configurations?</span><span class="faq-plus" aria-hidden="true"></span>
+                        </summary>
+                        <p>
+                            Request the latest inventory, residence areas, cost sheet and
+                            payment schedule. Confirm prices and availability with the
+                            authorised sales team.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>
+                            <span class="faq-num">03</span><span class="faq-q">How can I get the brochure and floor
+                                plans?</span><span class="faq-plus" aria-hidden="true"></span>
+                        </summary>
+                        <p>
+                            Use the enquiry form and mention the documents you need. An
+                            advisor can share the available approved project information and
+                            floor plans.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>
+                            <span class="faq-num">04</span><span class="faq-q">Can I arrange a guided site
+                                visit?</span><span class="faq-plus" aria-hidden="true"></span>
+                        </summary>
+                        <p>
+                            Submit a visit request with your preferred day and time. The
+                            team will confirm the appointment and meeting location.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>
+                            <span class="faq-num">05</span><span class="faq-q">Are these photographs of the
+                                project?</span><span class="faq-plus" aria-hidden="true"></span>
+                        </summary>
+                        <p>
+                            The visuals are AI-generated artistic impressions. They
+                            illustrate a lifestyle concept and do not represent confirmed
+                            project architecture, amenities or specifications.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>
+                            <span class="faq-num">06</span><span class="faq-q">How can I verify the project
+                                details?</span><span class="faq-plus" aria-hidden="true"></span>
+                        </summary>
+                        <p>
+                            Request current project registration details, approved
+                            specifications and other documentation from the authorised team.
+                        </p>
+                    </details>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="contact-panel">
+                <img src="images/ai-living.webp" width="1200" height="805" alt="" loading="lazy" decoding="async"
+                    aria-hidden="true" />
+                <div class="contact-copy reveal">
+                    <p class="eyebrow">
+                        <span class="numeral">XI</span>THE PRIVATE OFFICE
+                    </p>
+                    <h2>Your next chapter.<br /><em>One conversation away.</em></h2>
+                    <p>Tell us a little about yourself. We’ll take it from here.</p>
+                    <ul class="concierge">
+                        <li>
+                            <button data-enquire="Schedule a guided site visit">
+                                Private site visit<span aria-hidden="true">↗</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button data-enquire="Request a virtual walkthrough">
+                                Virtual walkthrough<span aria-hidden="true">↗</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button data-enquire="Request pricing and payment plans">
+                                Cost sheet &amp; payment plan<span aria-hidden="true">↗</span>
+                            </button>
+                        </li>
+                        <li>
+                            <a class="concierge-whatsapp"
+                                href="https://wa.me/910000000000?text=Hello%2C%20I%20am%20interested%20in%20Project%20Name.%20Please%20share%20the%20details."
+                                target="_blank" rel="noopener">Chat on WhatsApp<svg class="icon" viewBox="0 0 24 24"
+                                    aria-hidden="true" focusable="false">
+                                    <path fill="currentColor"
+                                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+                                </svg></a>
+                        </li>
+                    </ul>
+                    <div class="contact-address">
+                        <span>PROJECT NAME</span>
+                        <p>Location Address</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-side reveal">
+                <div class="enquiry-form footer-form" data-form="footer" id="footer-form">
+                    <h3>Request a private <em>consultation.</em></h3>
+                    <div>
+                        <input id="qSenderNamefooter" name="name" type="text" placeholder="Name*" title="Enter Name"
+                            autocomplete="off" /><input id="qEmailIDfooter" name="email" type="email"
+                            placeholder="Email*" title="Enter Email" autocomplete="off" /><input id="qMobileNofooter"
+                            class="phone-input" data-countrycode-id="qCountryCode4" name="number" type="tel"
+                            placeholder="Mobile Number*" title="Enter Number" autocomplete="off" /><input type="hidden"
+                            id="qCountryCode4" name="country_code" value="+91" /><input id="qMessagefooter"
+                            name="message" type="text" placeholder="Message*" title="Enter Message"
+                            autocomplete="off" /><label class="consent"><input type="checkbox" checked /><span>I
+                                authorize company representatives to Call, SMS, Email or
+                                WhatsApp me about its products and offers. This consent
+                                overrides any registration for DNC/NDNC.</span></label><button id="SubmitQueryfooter"
+                            class="button" type="submit" title="Send Message">
+                            Request consultation <span aria-hidden="true">↗</span>
+                        </button>
+                        <p class="privacy-note">
+                            Your details will be used to respond to your enquiry.
+                            <a href="privacy.html">Privacy policy</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <p class="footer-wordmark" aria-hidden="true">Project Name</p>
+            <div class="footer-top">
+                <a class="brand" href="#home" aria-label="Project Name home"><span class="brand-mark"
+                        aria-hidden="true">p.</span><span class="brand-name">PROJECT NAME<span>PRIVATE
+                            RESIDENCES</span></span></a>
+                <p>A life, beautifully considered.</p>
+                <!-- <nav aria-label="Footer navigation">
+            <a href="#residences">Residences</a
+            ><a href="#amenities">Lifestyle</a><a href="#location">Location</a
+            ><a href="#contact">Contact</a>
+          </nav> -->
+                <a href="#home" class="back-top">Back to top ↑</a>
+            </div>
+            <div class="footer-disclaimer">
+                <p>
+                    All imagery is AI-generated and for illustration only. Residence
+                    collections and diagrams are illustrative. Confirm project details,
+                    configurations, prices, specifications and availability with the
+                    authorised sales team. RERA registration: To be updated.
+                </p>
+                <p>
+                    Prices, specifications and availability are subject to confirmation.
+                    <a href="disclaimer.html">Read full disclaimer.</a>
+                </p>
+            </div>
+            <div class="footer-bottom">
+                <span>© <span id="year">2026</span> · Project Name</span>
+                <div>
+                    <a href="disclaimer.html" target="_blank">Privacy policy</a><a href="disclaimer.html"
+                        target="_blank">Disclaimer</a>
+                </div>
+                <span>THOUGHTFULLY DESIGNED. BEAUTIFULLY LIVED.</span>
+            </div>
+        </div>
+    </footer>
+    <a class="whatsapp-float"
+        href="https://wa.me/910000000000?text=Hello%2C%20I%20am%20interested%20in%20Project%20Name.%20Please%20share%20the%20details."
+        target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg class="icon" viewBox="0 0 24 24"
+            aria-hidden="true" focusable="false">
+            <path fill="currentColor"
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+        </svg></a>
+    <nav class="mobile-actions" aria-label="Quick actions">
+        <a href="#contact"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path fill="none" stroke="currentColor" stroke-width="1.5"
+                    d="M3.5 5.5h17v13h-17z M3.5 6.5l8.5 6.5 8.5-6.5" />
+            </svg><span>Enquire</span></a><a class="mobile-whatsapp"
+            href="https://wa.me/910000000000?text=Hello%2C%20I%20am%20interested%20in%20Project%20Name.%20Please%20share%20the%20details."
+            target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path fill="currentColor"
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+            </svg><span>WhatsApp</span></a><button class="mobile-visit" data-enquire="Arrange a private visit">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path fill="none" stroke="currentColor" stroke-width="1.5"
+                    d="M4 6h16v14H4z M4 10h16 M8 3.5v4 M16 3.5v4" />
+            </svg><span>Book a visit</span>
+        </button>
+    </nav>
+    <dialog id="enquiry-dialog" class="enquiry-dialog" aria-labelledby="popup-title">
+        <button class="dialog-close" data-close aria-label="Close enquiry">
+            ×
+        </button>
+        <div class="dialog-art" aria-hidden="true">
+            <img src="images/ai-clubhouse-lobby.webp" width="800" height="993" alt="" loading="lazy" decoding="async" />
+            <p><span>p.</span>A life, beautifully considered.</p>
+        </div>
+        <div class="dialog-body">
+            <div class="popup-intro">
+                <p class="eyebrow">PRIVATE ENQUIRY</p>
+                <h2 id="popup-title">Let’s talk.</h2>
+                <p>A personal conversation about your next home.</p>
+            </div>
+            <div class="enquiry-form" data-form="popup" id="popup-form">
+                <div>
+                    <input id="qSenderNamepopup" name="name" type="text" placeholder="Name*" title="Enter Name"
+                        autocomplete="off" /><input id="qEmailIDpopup" name="email" type="email" placeholder="Email*"
+                        title="Enter Email" autocomplete="off" /><input id="qMobileNopopup" class="phone-input"
+                        data-countrycode-id="qCountryCodepopup" name="number" type="tel" placeholder="Mobile Number*"
+                        title="Enter Number" autocomplete="off" /><input type="hidden" id="qCountryCodepopup"
+                        name="country_code" value="+91" /><input id="qMessagepopup" name="message" type="text"
+                        placeholder="Message*" title="Enter Message" autocomplete="off" /><label class="consent"><input
+                            type="checkbox" checked /><span>I authorize company representatives to Call, SMS, Email or
+                            WhatsApp me about its products and offers. This consent
+                            overrides any registration for DNC/NDNC.</span></label><button id="SubmitQuerypopup"
+                        class="button" type="submit" title="Send Message">
+                        Request a callback <span aria-hidden="true">↗</span>
+                    </button>
+                    <p class="privacy-note">
+                        Your details will be used to respond to your enquiry.
+                        <a href="disclaimer.html">Privacy policy</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </dialog>
+    <dialog id="gallery-dialog" class="gallery-dialog" aria-label="Gallery image viewer">
+        <button class="dialog-close" data-close aria-label="Close gallery">
+            ×</button><img id="gallery-full" alt="" width="1200" height="805" />
+        <div class="gallery-controls">
+            <button id="gallery-prev" aria-label="Previous image">←</button>
+            <p id="gallery-caption"></p>
+            <button id="gallery-next" aria-label="Next image">→</button>
+        </div>
+    </dialog>
+   
+</body>
+
+</html>
